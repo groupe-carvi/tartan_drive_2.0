@@ -1,0 +1,16 @@
+name: tartan_drive_2.0
+id: ari:cloud:compass:e489ce12-950f-402e-8d4e-940f40450fe5:component/d3e19302-71bb-4ac1-ba88-53bb212819ec/dd3d0d4a-e5ae-4225-951b-a6cbc9f11b34
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/groupe-carvi/tartan_drive_2.0
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null

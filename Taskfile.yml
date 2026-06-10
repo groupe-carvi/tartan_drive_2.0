@@ -1,0 +1,13 @@
+version: '3'
+
+tasks:
+  default:
+    desc: List available tasks
+    cmds:
+      - task --list
+    silent: true
+
+  gui:
+    desc: Launch TartanDrive GUI
+    cmds:
+      - uv run --python 3.12 python scripts/tartandrive_gui.py

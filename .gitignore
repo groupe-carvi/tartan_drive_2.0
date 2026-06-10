@@ -1,0 +1,38 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local runtime/generated files
+temp_metadata.yaml
+temp_pts.npy
+
+# Local downloaded scan artifact
+assets/vicky1_clean.pts
+
+/downloads/
+/kitti/
